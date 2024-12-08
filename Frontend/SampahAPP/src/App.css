@@ -1,0 +1,181 @@
+.Menu{
+  width: 40%;
+  height: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Log_Sign{
+  width: 20%;
+  height: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Merk{
+  color: var(--warna4);
+  display: flex;
+  align-items: center;
+  width: 20%;
+}
+.Logo{
+  margin-right: 20px;
+  width: 50px;
+  height: 50px;
+}
+.Judul{
+  width: 50%;
+}
+.Text{
+  margin-top: 20px;
+  text-align: justify;
+  width: 50%;
+}
+.btn-beranda{
+  margin-top: 20px;
+  width: 50%;
+  display: flex;
+  
+}
+.btn-b{
+  border: 4px solid;
+  width: 100px;
+  margin-right: 10%;
+  background-color: var(--warna2);
+}
+.Informasi{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+}
+.cntn-1-informasi{
+  text-align: center;
+  width: 70%;
+}
+.cntn-1-informasi p{
+  margin-top: 30px;
+}
+.cntn-2-informasi{
+  text-align: center;
+  width: 80%;
+}
+.poin{
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  justify-content: space-between;
+}
+.sub-cntn-2-informasi{
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.bg-gambar-sub-cntn-2-informasi{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--warna2);
+}
+.gambar-cntn-2-infromasi{
+  width: 150px;
+  height: 150px;
+}
+.Informasi-2{
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.Informasi-2 h2{
+  margin-top: 10vh;
+}
+.cntn-1-informasi-2, .cntn-2-informasi-2{
+  padding: 0px 20px 0px 20px;
+  height: 40%;
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+}
+.sub-cntn-informasi-2 img{
+  width: 100%;
+  height: 60%;
+}
+.sub-cntn-informasi-2 p{
+  font-size: var(--sizeSubText);
+  text-align: justify;
+}
+.sub-cntn-informasi-2{
+  width: 300px;
+}
+.ContactUs{
+  padding: 0px 5% 0px 5%;
+  height: 90vh;
+  display: flex;
+  
+}
+.cntn-1-ContactUs{
+  margin-top: 12vh;
+  width: 50%;
+  height: 78vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cntn-2-ContactUs{
+  color: var(--warnaBG);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  margin-top: 12vh;
+  width: 50%;
+  height: 76vh;
+  background-color: var(--warna1);
+}
+.cntn-2-ContactUs form{
+  
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cntn-2-ContactUs form input{
+  border: none;
+  border-radius: 15px;
+  height: 30px;
+}
+.cntn-2-ContactUs form textarea{
+  border-radius: 15px;
+  height: 50%;
+}
+.cntn-2-ContactUs form div{
+  display: flex;
+  justify-content: end;
+}
+.submit{
+  background-color: var(--warna4);
+  color: var(--warna1);
+  font-size: var(--sizeText);
+  font-weight: bold;
+  width: 150px;
+}
+.Footer{
+  background-color: var(--warna1);
+  height: 10vh;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 5%;
+}
+.sub-footer{
+  font-size: var(--sizeSubText);
+  margin-left: 100px;
+}
